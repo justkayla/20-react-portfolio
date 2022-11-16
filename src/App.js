@@ -16,8 +16,7 @@ import Project from "./components/Project";
 function App() {
   return (
     <div>      
-      <Navigation />
-      <Footer />
+      <Navigation />      
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +25,8 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<Home />} />
         </Routes>      
-      </BrowserRouter>      
+      </BrowserRouter>  
+      <Footer />    
     </div>
   );
 }

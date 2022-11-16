@@ -8,8 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navigation() {  
 
   return (
-    <Navbar sticky="top" bg="light" expand="lg">
-      <Container>
+    <Navbar className="m-3" sticky="top" bg="dark" expand="lg">
+      <Container  className="m-0" style={{ backgroundColor: '#17a2b8' }}>
         <Navbar.Brand href="/">Kayla's Portfolio!</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

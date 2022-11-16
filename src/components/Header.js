@@ -2,7 +2,7 @@
 
 function Header() {
   return (
-    <div class="bg-light p-5 rounded-lg m-3">
+    <div class="p-5 rounded-lg m-3" style={{ backgroundColor: '#17a2b8' }}>
       <h1 class="display-4">This is the header!</h1>
       <p class="lead">This is a simple hero unit</p>
       <hr class="my-4"/>
