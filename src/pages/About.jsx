@@ -1,4 +1,5 @@
 // About me page
+// TODO: Format page, add information
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";

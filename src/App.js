@@ -11,7 +11,6 @@ import Projects from "./pages/Projects";
 // components
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
-import Project from "./components/Project";
 
 function App() {
   return (
