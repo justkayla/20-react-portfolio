@@ -5,8 +5,7 @@ import Button from "react-bootstrap/Button";
 function ContactForm() {
   return (
     <Container
-      style={{
-        border: "1px solid black",
+      style={{        
         display: "flex",
         justifyContent: "center",
       }}
@@ -33,7 +32,7 @@ function ContactForm() {
             />
           </div>
         ))}
-        <Button variant="outline-primary" type="submit">
+        <Button variant="outline-primary" type="submit" style={{ borderColor: "#F0966A", backgroundColor: "#F0966A", color: "white" }}>
           Submit
         </Button>
         

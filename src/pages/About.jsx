@@ -5,9 +5,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Accordion from "react-bootstrap/Accordion";
+import Header3 from "../components/Header3";
 
 function About() {
   return (
+    <>
+    <Header3 />
     <Container>
       <Row style={{ display: "flex", justifyContent: "center" }}>
         <Accordion>
@@ -70,6 +73,7 @@ function About() {
         </Accordion>
       </Row>
     </Container>
+    </>
   );
 }
 

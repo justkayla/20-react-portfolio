@@ -2,11 +2,11 @@
 
 function Header() {
   return (
-    <div class="p-5 rounded-lg m-3" style={{ backgroundColor: '#17a2b8' }}>
-      <h1 class="display-4">This is the header!</h1>
-      <p class="lead">This is a simple hero unit</p>
-      <hr class="my-4"/>
-      <p>It uses utility classes</p>
+    <div class="p-4 rounded-lg m-4" style={{ backgroundColor: 'whitesmoke', textAlign: 'center' }}>
+      <h1 class="display-4">Kayla Justice</h1>
+      <p class="lead">Fullstack Developer</p>
+      <hr class="my-4" style={{ color: '#F0966A', height:'10px', }} />
+      <p>Homepage</p>
     </div>
   );
 }

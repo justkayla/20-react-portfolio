@@ -10,9 +10,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navigation() {  
 
   return (
-    <Navbar className="m-3" sticky="top" bg="dark" expand="lg">
-      <Container  className="m-0" style={{ backgroundColor: '#17a2b8' }}>
-        <Navbar.Brand href="/">Kayla's Portfolio!</Navbar.Brand>
+    <Navbar className="m-3" sticky="top" expand="lg" style={{ backgroundColor: "#F0966A" }} >
+      <Container  className="m-0" style={{ backgroundColor: 'whitesmoke' }}>
+        <Navbar.Brand href="/">Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

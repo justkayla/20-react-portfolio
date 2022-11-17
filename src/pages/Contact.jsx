@@ -1,11 +1,12 @@
 // Contact me page
 
 import ContactForm from "../components/Form";
+import Header4 from "../components/Header4";
 
 const Contact = () => {
   return (
     <>
-      <h1>This is the Contact page.</h1>
+      <Header4 />      
       <ContactForm />
     </>
   );
