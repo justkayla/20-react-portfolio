@@ -1,7 +1,5 @@
 // * A single `Project` component that will be used multiple times in the Portfolio section
 
-// TODO: Center repo buttons, change button outline and click colors, add photos, add project descriptions
-
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";

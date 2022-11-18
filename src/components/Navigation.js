@@ -1,7 +1,5 @@
 // * A single `Navigation` component within the header that will be used to conditionally render the different sections of your portfolio
 
-// TODO: Style nav bar
-
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
