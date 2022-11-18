@@ -2,7 +2,7 @@ About.jsx
     Accordion onClick color change (useState?)
 
 Contact.jsx
-    Submit button onCLick color change (useState?)
+    Submit button onClick color change (useState?)
 
 Projects.jsx
     Mobile compatibility w/cards and images (breakpoints?)
