@@ -10,7 +10,7 @@ function Project() {
   return (
     <Container style={{ display: "flex", justifyContent: "center", wrap: "wrap" }}>
       <Card class="row row-cols-sm-1" style={{ width: "18rem", margin: 20, borderColor: "#F0966A" }}>
-        <Card.Img variant="top" src={require('../images/insomnia.png')} style={{ width: '170px' }} />
+        <Card.Img variant="top" src={require('')} style={{ width: '170px' }} />
         <Card.Body>
           <Card.Title>social network api</Card.Title>
           <Card.Text>
@@ -30,7 +30,7 @@ function Project() {
       </Card>
 
       <Card style={{ width: "18rem", margin: 20, borderColor: "#F0966A" }}>
-        <Card.Img variant="top" src={require("../images/gossippyy.png")} />
+        <Card.Img variant="top" src={require("../assets/images/gossippyy.png")} />
         <Card.Body>
           <Card.Title>GOSSIPPYY</Card.Title>
           <Card.Text>
@@ -50,7 +50,7 @@ function Project() {
       </Card>
 
       <Card style={{ width: "18rem", margin: 20, borderColor: "#F0966A" }}>
-        <Card.Img variant="top" src={require('../images/nodejs.png')} style={{ width: '175px' }}/>
+        <Card.Img variant="top" src={require('../assets/images/employee-tracker.png')} style={{ width: '175px' }}/>
         <Card.Body>
           <Card.Title style={{ marginTop: '0px'}}>employee tracker</Card.Title>
           <Card.Text>
