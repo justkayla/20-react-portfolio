@@ -3,9 +3,14 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 function ContactForm() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log("You clicked submit.");
+  }
+
   return (
     <Container
-      style={{        
+      style={{
         display: "flex",
         justifyContent: "center",
       }}
@@ -32,10 +37,18 @@ function ContactForm() {
             />
           </div>
         ))}
-        <Button variant="outline-primary" type="submit" style={{ borderColor: "#F0966A", backgroundColor: "#F0966A", color: "white" }}>
+        <Button
+          variant="outline-primary"
+          type="submit"
+          style={{
+            borderColor: "#F0966A",
+            backgroundColor: "#F0966A",
+            color: "white",
+          }}
+          onSubmit={handleSubmit}
+        >
           Submit
         </Button>
-        
       </Form>
     </Container>
   );

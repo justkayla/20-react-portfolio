@@ -1,21 +1,33 @@
 // About me page
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Accordion from "react-bootstrap/Accordion";
-import Header3 from "../components/Header3";
+import { useState } from 'react';
+import { Container, Row, Col, Accordion } from "react-bootstrap";
+import Subheader from "../components/Subheader";
 
-function About() {
+
+function About({ title }) {
+
+  /*
+  const [active, setActive] = useState(false)
+
+  const handleClick = () => {
+    setActive(true);
+  };
+
+  const clickStyle = {
+
+  }
+  */
+
   return (
     <>
-    <Header3 />
+    <Subheader title={"About me"}/>
     <Container>
       <Row style={{ display: "flex", justifyContent: "center" }}>
         <Accordion>
           <Col s={12}>
             <Accordion.Item eventKey="0">
-              <Accordion.Header>about me</Accordion.Header>
+              <Accordion.Header>personal</Accordion.Header>
               <Accordion.Body>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

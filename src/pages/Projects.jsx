@@ -1,12 +1,12 @@
 // Projects page
 
 import Project from "../components/Project";
-import Header2 from "../components/Header2";
+import Subheader from "../components/Subheader";
 
-const Projects = () => {
+const Projects = ({ title }) => {
   return (
     <>
-      <Header2 />      
+      <Subheader title={"Projects"} />      
       <Project />
     </>
   );

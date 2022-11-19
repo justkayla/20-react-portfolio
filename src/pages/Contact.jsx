@@ -1,12 +1,12 @@
 // Contact me page
 
 import ContactForm from "../components/Form";
-import Header4 from "../components/Header4";
+import Subheader from "../components/Subheader";
 
-const Contact = () => {
+const Contact = ({ title }) => {
   return (
     <>
-      <Header4 />      
+      <Subheader title={"Contact me"} />      
       <ContactForm />
     </>
   );
