@@ -2,6 +2,7 @@ import ReactDOM from "react-dom/client";
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import projectData from "./components/data/projectData.json";
 
 // pages
 import Home from "./pages/Home";
@@ -24,7 +25,7 @@ function App() {
   return (
     <div>      
       <BrowserRouter>
-      <Navigation activeTab={activeTab} setActiveTab={setActiveTab}/>     
+      <Navigation data={projectData} activeTab={activeTab} setActiveTab={setActiveTab}/>     
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

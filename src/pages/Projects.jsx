@@ -7,7 +7,9 @@ const Projects = ({ title }) => {
   return (
     <>
       <Subheader title={"Projects"} />      
-      <Project />
+      <Project>
+        
+      </Project>
     </>
   );
 };
