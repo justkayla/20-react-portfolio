@@ -5,12 +5,4 @@ Contact.jsx
     Submit button onClick color change (useState?)
 
 Projects.jsx
-    Mobile compatibility w/cards and images (breakpoints?)
-    Center and onClick color change for "view repo" buttons (useState?)
-    Center images inside cards
-
-Duplicative components: Header2-4.jsx
-    How to use props to create one header that can be reused through each .jsx file?
-
-Homework requirement
-    Highlight tab w/corresponding page (useState?)
+   Center and onClick color change for "view repo" buttons (useState?)

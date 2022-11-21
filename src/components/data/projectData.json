@@ -1,18 +1,18 @@
 [
   {
-    "img": "../assets/images/social-network.png",
+    "img": "/assets/images/social-network.png",
     "title": "social network api",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "link": "https://github.com/justkayla/18-social-network-api"
   },
   {
-    "img": "../assets/images/gossippyy.png",
+    "img": "/assets/images/gossippyy.png",
     "title": "GOSSIPPYY",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "link": "https://github.com/JoePShoulak/gossippyy"
   },
   {
-    "img": "../assets/images/employee-tracker.png",
+    "img": "/assets/images/employee-tracker.png",
     "title": "employee tracker",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "link": "https://github.com/justkayla/12-employee-tracker"
