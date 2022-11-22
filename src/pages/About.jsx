@@ -14,13 +14,14 @@ function About({ title }) {
             <Accordion>
               <Col s={12}>
                 <Accordion.Item eventKey="0">
-                  <Accordion.Header>{about.title}</Accordion.Header>
+                  <Accordion.Header style={{ color: "F0966A" }}>
+                    {about.title}
+                  </Accordion.Header>
                   <Accordion.Body>{about.text}</Accordion.Body>
                 </Accordion.Item>
               </Col>
             </Accordion>
           ))}
-          ;
         </Row>
       </Container>
     </>
