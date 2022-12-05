@@ -2,19 +2,25 @@
   {
     "img": "/assets/images/social-network.png",
     "title": "social network api",
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "text": "An API for a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.",
     "link": "https://github.com/justkayla/18-social-network-api"
   },
   {
     "img": "/assets/images/gossippyy.png",
     "title": "GOSSIPPYY",
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "text": "A Facebook-style social media application that allows logged in users to share posts and comments with friends.",
     "link": "https://github.com/JoePShoulak/gossippyy"
   },
   {
     "img": "/assets/images/employee-tracker.png",
     "title": "employee tracker",
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "text": "A command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
     "link": "https://github.com/justkayla/12-employee-tracker"
+  },
+  {
+    "img": "/assets/images/buzzbuzz.png",
+    "title": "buzzbuzz",
+    "text": "A Buzzfeed-style quiz application that allows logged in users to take the featured quiz of the day.",
+    "link": "https://github.com/justkayla/buzzbuzz"
   }
 ]

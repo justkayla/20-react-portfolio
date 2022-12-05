@@ -19,6 +19,7 @@ code {
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
   /* Lowering the shadow */
   border-color: #f0966a;
+  outline: none !important;
 }
 
 .accordion:active {
@@ -67,4 +68,21 @@ code {
 
 .accordion-button::after {
   color: #f0966a;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #f0966a;
+  --bs-btn-border-color: #f0966a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #f0966a;
+  --bs-btn-hover-border-color: #f0966a;
+  --bs-btn-focus-shadow-rgb: 13,110,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #f0966a;
+  --bs-btn-active-border-color: #f0966a;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #f0966a;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #f0966a;
+  --bs-gradient: none;
 }
