@@ -12,10 +12,6 @@ const Contact = ({ title }) => {
       <Container style={{ display: "flex", justifyContent: "center" }}>        
         <Stack>
           <center>
-          <img
-            src={require("../assets/images/profilepic1.jpg")}
-            style={{ width: "350px", borderRadius: "10%", marginTop: "0px" }}
-          ></img>
           <p style={{ marginTop: "20px" }}>
             <a mailto="kaylarjustice@gmail.com">
               <strong>Email:</strong> kaylarjustice@gmail.com
@@ -24,6 +20,10 @@ const Contact = ({ title }) => {
           <p>
             <strong>Phone:</strong> 713-203-9870
           </p>
+          <img
+            src={require("../assets/images/profilepic1.jpg")}
+            style={{ width: "350px", borderRadius: "10%", marginTop: "0px" }}
+          ></img>          
           </center>
         </Stack>        
       </Container>
